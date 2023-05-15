@@ -18,4 +18,4 @@ jobs:
         with:
           node-version: 16
       - run: npm ci
-      - run: npm start
+      - run: npm node ./index.js
