@@ -12,4 +12,5 @@ app.listen(port, () => {
   console.log(`App listening on http://mywebapp.norwayeast.cloudapp.azure.com:${port}`)
   console.log(`Or on http://20.100.193.177:${port}`)
   console.log(`Or on localhost:${port}`)
+  console.log("CI/CD")
 })
