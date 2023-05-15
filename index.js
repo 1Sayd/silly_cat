@@ -10,6 +10,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.listen(port, () => {
   console.log(`App listening on http://mywebapp.norwayeast.cloudapp.azure.com:${port}`)
-  console.log(`Or on http://20.100.193.177:3000/${port}`)
-  console.log(`Or on localhost:3000/${port}`)
+  console.log(`Or on http://20.100.193.177:${port}`)
+  console.log(`Or on localhost:${port}`)
 })
