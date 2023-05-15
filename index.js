@@ -9,5 +9,6 @@ app.use(compression());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.listen(port, () => {
-  console.log(`App listening on port ${port}`)
+  console.log(`App listening on http://mywebapp.norwayeast.cloudapp.azure.com:${port}`)
+  console.log(`Or on http://20.100.193.177:3000/${port}`)
 })
