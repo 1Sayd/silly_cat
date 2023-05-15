@@ -4,8 +4,10 @@
 name: CI/CD process
 
 on:
-  release:
-    types: [created]
+  push:
+    branches:
+      - main
+      - master
 
 jobs:
   build:
